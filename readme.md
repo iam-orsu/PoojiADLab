@@ -11,18 +11,6 @@ Requirements :
 - Workstations 
     - Windows 10 Enterprise Client (Standard Evaluation - Desktop Experience) required
 
-# Note: 
- Disclaimer: Author assumes zero liability for any damages in any form. 
-
- This script is provided as a courtesy in addition to, and is by no means intended 
- to replace or remove any direct course provided instruction. All aspects of this 
- script have been carefully planned, to replicate the lab instructed setup per 
- TCM Academy/PEH course material and provide a scripted installation.  
- 
- The function NukeDefender.ps1 has also been provided as a separate script
- and menu functionality added to PimpmyADLab.ps1 for those that just need to 
- NukeDefender only and not rebuild the entire lab.  
-
 
 # Installation and usage : 
  On each machine Domain Contoller, Workstation1 and Workstation2 : 
@@ -35,7 +23,7 @@ Each run will require the following :
 - powershell -ep bypass 
  - Copy pimpmyadlab.ps1 to the vm or wget the file directly to that machine:
  
-   wget https://raw.githubusercontent.com/Dewalt-arch/pimpmyadlab/main/pimpmyadlab.ps1 -O pimpmyadlab.ps1
+   wget https://raw.githubusercontent.com/iam-orsu/PoojiADLab/main/PoojiCosmeticsADLab.ps1 -O PoojiCosmeticsADLab.ps1
 
    Once the script has been copied or downloaded to the vm this step is now not required
 
@@ -56,10 +44,6 @@ Each run will require the following :
   - **N**  to ***only*** run the Nukedefender function and exit
   - **H**  to only Download and extract sharphound.zip and extract sharphound.exe
   - **X**  to exit the menu 
-
-# Updated June 10, 2023
- - added function get_sharphound to dc and workstation setup
- - added standalone Menu option H 
 
 # Domain Controller Instructions: 
  Keerthipati-DC Domain Controller 
