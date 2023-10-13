@@ -115,7 +115,7 @@ Each run will require the following :
   
   - ***Run 2*** 
     - Automatically acquires the ip address of Keerthipati-DC and assigns that ip to the DNS Configuration
-    - Automatically joins the PoojiCosmeticsl domain
+    - Automatically joins the PoojiCosmetics domain
     - Reboots automatically
       
   - If the workstation vm rebooted automatically 
@@ -147,14 +147,14 @@ Each run will require the following :
 # Revision 1.0.8 
   - fix_setspn function enhancement (updated)
   - function now dynamically acquires the machine name and domain-name
-    instead of set to static values of "Keerthipati-dc" and "PoojiCosmeticsl" and will now 
+    instead of set to static values of "Keerthipati-dc" and "PoojiCosmetics" and will now 
     work with any machine name and domain name now  
   - added check_ip function and fails if ip is 169.254
   - revision history moved to the bottom of the readme.md 
 
 # Revision 1.0.7
-  - create_PoojiCosmeticsl_gpo function updated to add more support for the fix gpo menu option F
-   - no longer statically sets "PoojiCosmeticsl" as the domain name
+  - create_PoojiCosmetics_gpo function updated to add more support for the fix gpo menu option F
+   - no longer statically sets "PoojiCosmetics" as the domain name
    - will now work with any domain name that is currently running
 
 # Revision 1.0.6 
@@ -170,10 +170,10 @@ Each run will require the following :
 # Revision 1.0.4 
   - Disable Defender Group Policy Object is now created with all options 
     from NukeDefender and all options from the build_lab function 
-    - removes any existing "Disable Defender" Policy linked to the PoojiCosmeticsl.local domain
+    - removes any existing "Disable Defender" Policy linked to the PoojiCosmetics.local domain
     - creates a new "Disable Defender" Policy
     - sets all settings
-    - Links GPO Policy to PoojiCosmeticsl.local domain and Enforces policy 
+    - Links GPO Policy to PoojiCosmetics.local domain and Enforces policy 
       
 # Revision 1.0.3 
   - Any and all Windows Updates will be removed automatically on 
@@ -220,7 +220,7 @@ Each run will require the following :
     - eliminates prompting the student for the ip address of the domain controller
     - removed prompt to enter ip address of the domain controller 
 
-  - Added auto join of the domain PoojiCosmeticsl.local 
+  - Added auto join of the domain PoojiCosmetics.local 
     - Removed prompt to join the domain, will be done automatically now
 
   - Added Git Clone of PowershellMafia Powersploit 
