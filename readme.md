@@ -5,7 +5,7 @@ Pooji Cosmetics - Active Directory Lab build script
 
  
 Requirements : 
-- DomainController (Keerthipati-DC) 
+- DomainController (POOJI COSMETICS-DC) 
     - Windows 2019 Server (Standard Evaluation - Desktop Experience) required
  
 - Workstations 
